@@ -37,9 +37,6 @@ public class DbHelper extends SQLiteOpenHelper {
 
     public void RegisterUSerHelper(String name1,String email1,String password1,String gender1){
 
-        //===============FIRST WE HAVE TO DEFINE THE TYPE OF DATABASE OR PROVIDE ACCESS SO THAT WE CAN WRITE INTO THE DATABASE==============
-        //================WE HAVE CREATED THE 4 CLASS(SEE NOTES IN NOTEBOOK) WHICH IS USER_DEFINED_HELPER CLASS===============================
-        // ===============SO WE HAVE TO APPLY getwritabledatabase()==========================================================================
 
         SQLiteDatabase sqLiteDatabase= getWritableDatabase();
         ContentValues values=new ContentValues();
